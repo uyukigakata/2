@@ -46,7 +46,6 @@ total_clicks = 0
 # グローバル変数
 exit_flag = False
 current_threshold_index = 0
-
 def countdown(timer, next_thread):
     if timer <= 0:
         global exit_flag
